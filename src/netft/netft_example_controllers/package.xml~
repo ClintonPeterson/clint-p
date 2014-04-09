@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>netft_example_controllers</name>
+  <description>The netft example controllers package</description>
+  <author>Derek King</author>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/netft_example_controllers</url>
+  <version>0.0.0</version>
+  <maintainer email="unknown@gmail.com">Derek King</maintainer>
+    
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>ethercat_hardware</build_depend>
+  <build_depend>pr2_controller_interface</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>ethercat_hardware</run_depend>
+  <run_depend>pr2_controller_interface</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <export>
+    <pr2_controller_interface plugin="${prefix}/controller_plugins.xml" />
+  </export>
+
+
+</package>
