@@ -2,6 +2,6 @@
 Changelog for package netft_ethercat_hardware
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.0 (2014-04-08)
+0.0.1-0 (2014-04-08)
 -----------
-* Catkinized netft_ethercat_hardware package/works for Hydro
+* Catkinized netft_ethercat_hardware package
