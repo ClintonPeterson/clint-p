@@ -6,7 +6,7 @@
   <license>BSD</license>
   <url>http://ros.org/wiki/netft_ethercat_hardware</url>
   <version>0.0.0</version>
-  <maintainer email="clinton.peterson@utexas.edu">Clint Peterson</maintainer>
+  <maintainer email="unknown@gmail.com">Derek King</maintainer>
  
   <buildtool_depend>catkin</buildtool_depend>
   

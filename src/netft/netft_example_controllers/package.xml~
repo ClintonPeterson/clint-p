@@ -26,5 +26,4 @@
     <pr2_controller_interface plugin="${prefix}/controller_plugins.xml" />
   </export>
 
-
 </package>
